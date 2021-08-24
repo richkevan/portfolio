@@ -1,0 +1,97 @@
+.contactPage {
+}
+@media screen and (max-width: 769px) {
+	.contactPage {
+		height: 90vh;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		/* padding: 0.25em; */
+		text-align: center;
+	}
+}
+/* Social Media Icons */
+div > a {
+	margin: 0.75em;
+}
+.socialColumn {
+	margin: 1em;
+}
+
+.social {
+	width: 98%;
+	color: whitesmoke;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 0.5em;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px black;
+}
+
+.twitter {
+	background-color: #1da1f2;
+}
+.facebook {
+	background-color: #4267b2;
+}
+.fbmessenger {
+	background-color: #00b2ff;
+}
+
+.instagram {
+	background: radial-gradient(
+		circle at 33% 100%,
+		#fed373 4%,
+		#f15245 30%,
+		#d92e7f 62%,
+		#9b36b7 85%,
+		#515ecf
+	);
+}
+
+.linkedin {
+	background-color: #2867b2;
+}
+
+.github {
+	background-color: #6e5494;
+}
+
+.twitch {
+	background-color: #6441a4;
+}
+
+.stackOverflow {
+	background-color: #f48024;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+label {
+	width: 80%;
+	text-align: left;
+	display: flex;
+	flex-flow: row;
+	align-items: baseline;
+	justify-content: space-between;
+	font-size: 1.75em;
+	font-weight: 700;
+	padding-bottom: 2%;
+}
+
+input,
+textarea {
+	width: 80%;
+	border: 5px solid transparent;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px black;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}

@@ -1,0 +1,7 @@
+{
+    "gatsbyhub.commands.build.enableTracing": true,
+    "gatsbyhub.commands.develop.openBrowser": true,
+    "gatsbyhub.commands.serve.openBrowser": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}

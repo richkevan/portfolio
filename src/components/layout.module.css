@@ -1,0 +1,104 @@
+@import url(../css/typography.css);
+@import url(https://kit.fontawesome.com/1512cd76b1.js);
+:root {
+	background: bottom center / contain no-repeat
+		url("../images/Artboard\ 1.svg") fixed;
+}
+body {
+	color: #05472a;
+	font-family: "Rubik One", "Rubik", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 2.75em;
+}
+h3 {
+	font-size: 2em;
+}
+h5 {
+	font-size: 1.5em;
+	margin-block: auto;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: #9eaf43;
+}
+.container {
+	display: flex;
+}
+@media screen and (min-width: 0) and (max-width: 1025px) {
+	.container {
+		flex-flow: column nowrap;
+	}
+}
+
+@media screen and (min-width: 1026px) {
+	.container {
+		flex-flow: row nowrap;
+	}
+}
+/* Layout Styles */
+
+.card {
+	background-color: transparent;
+	background: linear-gradient(
+		30deg,
+		rgba(255, 255, 255, 0.9) 15%,
+		rgba(255, 2552, 255, 0.3) 80%
+	);
+	backdrop-filter: blur(10px) contrast(80%) hue-rotate(90deg);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #05472a, -3px -3px 5px #4b5320;
+	padding: 15px;
+	margin: 30px;
+}
+
+/* Flex Sizes */
+.sizeX1 {
+	flex: 1 1 0;
+}
+.sizeX2 {
+	flex: 2 2 0;
+}
+.sizeX3 {
+	flex: 3 3 0;
+}
+
+/* Flex Position */
+.rowLeft {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+}
+.rowCenter {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+.rowRight {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+}
+
+.columnLeft {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+}
+
+.columnCenter {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.columnRight {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+}
+/* Page Styles */

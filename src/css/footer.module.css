@@ -1,0 +1,15 @@
+footer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
+	padding: 0 2.5%;
+}
+
+.copyright {
+	color: #9eaf43;
+	margin-block: auto;
+	-webkit-text-stroke: 0.075em black;
+}
