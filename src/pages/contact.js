@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import * as page from "../css/contact.module.css"
 import * as layout from "../components/layout.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome" 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
 
