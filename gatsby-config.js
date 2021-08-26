@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://richkevan.com",
     title: "Rich Kevan Porfolio",
     menuLinks:[
       {
@@ -23,10 +23,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-gatsby-cloud",
     {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "G-Z5FXTSWL4R",
-      },
+      resolve: `gatsby-plugin-hotjar`,
+    options: {
+      includeInDevelopment: true, // optional parameter to include script in development
+      id: 2569943,
+      sv: 6,
+    },
     },
   ],
 };
