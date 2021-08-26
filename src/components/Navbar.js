@@ -2,11 +2,13 @@ import React, {useState} from 'react'
 import * as layout from './layout.module.css'
 import * as page from '../css/navigation.module.css'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+require('dotenv').config()
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import { faCampground, faCopyright, faBars } from "@fortawesome/free-solid-svg-icons"
 import { faShovel, faFireSmoke } from "@fortawesome/pro-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 library.add(fab, faBars, faCopyright, faCampground, faShovel, faFireSmoke)
 
