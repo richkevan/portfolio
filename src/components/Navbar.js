@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import * as layout from './layout.module.css'
 import * as page from '../css/navigation.module.css'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-require('dotenv').config()
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import { faCampground, faCopyright, faBars } from "@fortawesome/free-solid-svg-icons"
