@@ -11,11 +11,11 @@ const Contact = () => {
     return (
         <Layout>
         <div  className={layout.container}>
-            <div className={`${layout.card} ${layout.sizeX1} ${layout.columnCenter}`}>
+            <div className={`${layout.card}`}>
                 <h3>Follow Me</h3>
-                <div className={`${layout.rowCenter}`}>
+                <div className={`${page.socialContainer}`}>
                     <div className={`${layout.columnCenter} ${page.socialColumn}`}>
-                        <a href="https://www.aedin.com/in/rich-kevan/" target="new" aria-label="linkedin"><div className={`${page.linkedin} ${page.social}`}><FontAwesomeIcon icon={['fab','linkedin']} className="fa-4x"/><h5>richkevan</h5></div></a>
+                        <a href="https://www.linkedin.com/in/rich-kevan/" target="new" aria-label="linkedin"><div className={`${page.linkedin} ${page.social}`}><FontAwesomeIcon icon={['fab','linkedin']} className="fa-4x"/><h5>richkevan</h5></div></a>
                         <a href="https://github.com/richkevan" target="new" aria-label="github"><div className={`${page.github} ${page.social}`}><FontAwesomeIcon icon={['fab','github-square']} className="fa-4x"/><h5>richkevan</h5></div></a>
                         <a href="https://github.com/richkevan" target="new" aria-label="stack-overflow"><div className={`${page.stackOverflow} ${page.social}`}><FontAwesomeIcon icon={['fab', 'stack-overflow']} className="fa-4x"/><h5>@richkevan</h5></div></a>                        
                         <a href="https://github.com/richkevan" target="new" aria-label="twitter"><div className={`${page.twitter} ${page.social}`}><FontAwesomeIcon icon={['fab', 'twitter-square']} className="fa-4x"/><h5>@richkevan</h5></div></a>
