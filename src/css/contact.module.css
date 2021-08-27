@@ -1,23 +1,46 @@
-.contactPage {
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+	.socialContainer {
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		overflow: scroll;
+		justify-content: flex-start;
+	}
+	.socialColumn {
+		padding: 1em;
+		width: 100%;
+	}
+	.socialColumn > a {
+		width: 90%;
+	}
+
+	
 }
-@media screen and (max-width: 769px) {
-	.contactPage {
-		height: 90vh;
+
+@media screen and (min-width:769px) {
+	.socialContainer {
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+	}
+	.socialColumn {
+		padding: 1em;
+		width: 100%;
 		display: flex;
 		flex-flow: column nowrap;
-		justify-content: flex-start;
-		align-items: center;
-		/* padding: 0.25em; */
-		text-align: center;
+	}
+	.socialColumn {
+		width: 90%;
+		margin: 1em;
 	}
 }
 /* Social Media Icons */
 div > a {
 	margin: 0.75em;
 }
-.socialColumn {
-	margin: 1em;
-}
+
 
 .social {
 	width: 98%;
@@ -75,10 +98,10 @@ form {
 }
 
 label {
-	width: 80%;
+	width: 90%;
 	text-align: left;
 	display: flex;
-	flex-flow: row;
+	flex-flow: column;
 	align-items: baseline;
 	justify-content: space-between;
 	font-size: 1.75em;
@@ -88,7 +111,7 @@ label {
 
 input,
 textarea {
-	width: 80%;
+	width: 70%;
 	border: 5px solid transparent;
 	border-radius: 10px;
 	box-shadow: 2px 2px 10px black;

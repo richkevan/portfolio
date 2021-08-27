@@ -40,8 +40,8 @@
 		top: 0;
 	}
 
-	ul {
-		width: 40%;
+	.navList {
+		width: 60%;
 		list-style: none;
 		display: flex;
 		flex-flow: row nowrap;
@@ -56,15 +56,10 @@
 	}
 	.navList:hover a {
 		opacity: 0.5;
-		font-size: 0.75em;
 	}
 
 	.navLink:hover {
 		color: #4b5320;
 		opacity: 1 !important;
-		font-size: 1.75em !important;
 	}
-	.active {
-		color: purple;
-	}
-}
+}	
