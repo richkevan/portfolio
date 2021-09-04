@@ -24,6 +24,7 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "formik": "^2.2.9",
     "gatsby": "^3.10.2",
+    "gatsby-plugin-fathom": "^2.1.1",
     "gatsby-plugin-gatsby-cloud": "^2.10.1",
     "gatsby-plugin-hotjar": "^1.1.1",
     "react": "^17.0.1",
