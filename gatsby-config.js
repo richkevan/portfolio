@@ -34,9 +34,9 @@ module.exports = {
       resolve: 'gatsby-plugin-fathom',
       options: {
         // Your custom domain, defaults to `cdn.usefathom.com`
-        trackingUrl: 'https://cdn.usefathom.com',
+        trackingUrl: 'cdn.usefathom.com',
         // Unique site id
-        siteId: 'HFJUYKNS'
+        siteId: 'XXMTEHMX'
       }
     }
   ],
